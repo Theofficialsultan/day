@@ -32,7 +32,7 @@ def send_insurance_email(user_data):
             html_content=html_content
         )
 
-        sg = SendGridAPIClient(os.environ.get("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"))  # Safer key usage
+        sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))  # Safer key usage
         response = sg.send(message)
         return response.status_code == 202
 
