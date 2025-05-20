@@ -6,6 +6,7 @@ import json, os
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import urllib.parse
+import threading
 
 load_dotenv()
 
@@ -30,7 +31,6 @@ def home():
 def login():
     users = load_users()
 
-    # NEW: support auto-login via email link
     auto_key = request.args.get('auto_login')
     if auto_key:
         key = urllib.parse.unquote(auto_key)
@@ -58,18 +58,12 @@ def login():
             return "No user found", 404
     return render_template('login.html')
 
-# Remaining routes are unchanged...
-
-
-# NEW: Route to render certificate_template.html directly using user data
 @app.route('/certificate/<path:user_id>')
 def view_certificate(user_id):
     user_id = urllib.parse.unquote(user_id)
     users = load_users()
     if user_id in users:
         user = users[user_id]
-
-        # Format policy_start and policy_end as DD/MM/YYYY
         try:
             start = datetime.strptime(user['cover_start_date'], "%d %B %Y").strftime("%d/%m/%Y")
             end = datetime.strptime(user['cover_end_date'], "%d %B %Y").strftime("%d/%m/%Y")
@@ -78,18 +72,10 @@ def view_certificate(user_id):
             start = user['cover_start_date']
             end = user['cover_end_date']
 
-        # Get first 8 digits of the policy number and add dashes
         short_cert = user['policy_number'][:8] + "--"
-
         watermark_text = f"{start}-{end} {user['name']} {short_cert}"
-
-        # Render HTML as string
         rendered = render_template("certificate_template.html", watermark_text=watermark_text, **user)
-
-        # Generate PDF from HTML
         pdf = HTML(string=rendered, base_url=request.base_url).write_pdf()
-
-        # Serve PDF inline
         response = make_response(pdf)
         response.headers['Content-Type'] = 'application/pdf'
         response.headers['Content-Disposition'] = f'inline; filename=certificate_{user["car_reg"]}.pdf'
@@ -109,7 +95,6 @@ def admin():
 @app.route('/admin/add', methods=['POST'])
 def add_user():
     data = request.form.to_dict()
-
     raw_dob = data['dob'].strip().replace('/', '-')
     try:
         dob_obj = datetime.strptime(raw_dob, "%d-%m-%Y")
@@ -122,12 +107,9 @@ def add_user():
     postcode_clean = data['postcode'].replace(" ", "").upper()
     reg_caps = data['reg'].upper()
     key = f"{surname_cap}|{dob_formatted}|{postcode_clean}"
-
     print(f"[ADMIN ADD] Generated key: {key}")
 
     users = load_users()
-
-    # Auto-increment certificate number and ref number
     last_cert_number = max(
         [int(u['policy_number'][9:17]) for u in users.values() if 'policy_number' in u] or [60431037]
     )
@@ -140,13 +122,11 @@ def add_user():
 
     policy_number = f"1631H0000{new_cert_number:08d}D"
     reference_number = f"{new_ref_number:08d}"
-
     duration_days = int(data.get('duration', 2))
     now = datetime.now()
     end = now + timedelta(days=duration_days)
 
     cert_filename = f"{name_cap.replace(' ', '_')}_{reg_caps}.pdf"
-
     user_info = {
         "surname": surname_cap,
         "dob": dob_formatted,
@@ -182,8 +162,8 @@ def add_user():
     users[key] = user_info
     save_users(users)
 
-    # Generate certificate
-    generate_certificate(user_info)
+    # Deferred generation using background thread
+    threading.Thread(target=generate_certificate, args=(user_info,)).start()
 
     return redirect(url_for('admin'))
 
@@ -208,31 +188,20 @@ def issue_email(user_id):
             return "Email failed", 500
     return redirect(url_for('admin'))
 
-
-# ✅ NEW: Route to generate the PDF dynamically
 @app.route('/admin/generate_pdf/<path:user_id>')
 def generate_pdf(user_id):
     user_id = urllib.parse.unquote(user_id)
     users = load_users()
     if user_id in users:
         user = users[user_id]
-
-        # Render the certificate template
-        rendered = render_template("certificate_template.html",
-                                   watermark_text='',
-                                   **user)
-
-        # Generate PDF using WeasyPrint
+        rendered = render_template("certificate_template.html", watermark_text='', **user)
         pdf = HTML(string=rendered).write_pdf()
-
-        # Send the PDF as a response
         response = make_response(pdf)
         response.headers['Content-Type'] = 'application/pdf'
         response.headers['Content-Disposition'] = f'inline; filename={user["name"].replace(" ", "_")}_certificate.pdf'
         return response
     else:
         return "User not found", 404
-
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
