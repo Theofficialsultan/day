@@ -32,6 +32,13 @@ def send_insurance_email(user_data):
             if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
                 raise Exception("Mailgun credentials not found.")
 
+            # DEBUG: Print Mailgun details before sending
+            print("Preparing to send email via Mailgun...")
+            print("Using API key:", MAILGUN_API_KEY[:10] + "..." if MAILGUN_API_KEY else "Missing")
+            print("Domain:", MAILGUN_DOMAIN or "Missing")
+            print("Recipient email:", user_data.get("email", "Missing"))
+            print("Endpoint:", f"https://api.eu.mailgun.net/v3/{MAILGUN_DOMAIN}/messages" if MAILGUN_DOMAIN else "Missing domain")
+
             response = requests.post(
                 f"https://api.eu.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
                 auth=("api", MAILGUN_API_KEY),
@@ -60,5 +67,7 @@ def send_insurance_email(user_data):
         print(f"Missing data: {ke}")
         return False
     except Exception as e:
-        print(f"Error sending email: {e}")
+        import traceback
+        print("Error sending email:", e)
+        traceback.print_exc()
         return False
