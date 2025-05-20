@@ -157,9 +157,12 @@ def add_user():
         "policy_start": f"{now.strftime('%d %B %Y')} {now.strftime('%H:%M')}",
         "policy_end": f"{end.strftime('%d %B %Y')} {end.strftime('%H:%M')}",
         "policy_number": policy_number,
+        "certificate_number": policy_number,
         "reference_number": reference_number,
         "insurer": "Aviva",
         "price": data.get("price", "£84.19"),
+        "contact_number": data.get("contact_number", ""),
+        "occupation": data.get("occupation", ""),
         "policy_link": f"static/certificates/{cert_filename}",
         "email_sent": False
     }

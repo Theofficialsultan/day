@@ -11,6 +11,23 @@ def generate_certificate(user_data, output_dir="static/certificates"):
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
 
+    # Fix watermark spacing regardless of name length
+    if 'cover_start_date' in user_data and 'cover_end_date' in user_data and 'name' in user_data and 'policy_number' in user_data:
+        try:
+            start = datetime.strptime(user_data['cover_start_date'], "%d %B %Y").strftime("%d/%m/%Y")
+            end = datetime.strptime(user_data['cover_end_date'], "%d %B %Y").strftime("%d/%m/%Y")
+            short_cert = user_data['policy_number'][:8] + "--"
+            
+            # Trim long names to prevent overflow
+            max_name_length = 20
+            trimmed_name = user_data['name'][:max_name_length]
+            
+            base_text = f"{start}-{end} {trimmed_name} {short_cert}"
+            fixed_text = base_text[:45].ljust(45)
+            user_data['watermark_text'] = "   ".join([fixed_text] * 30)
+        except Exception as e:
+            print("Watermark formatting error:", e)
+
     # Load the certificate template
     with open("templates/certificate_template.html", "r", encoding="utf-8") as f:
         template = f.read()

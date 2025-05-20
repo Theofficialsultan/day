@@ -24,7 +24,7 @@ def send_insurance_email(user_data):
             template_source = f.read()
 
         with app.app_context():
-            html_content = render_template_string(template_source, **user_data)
+            html_content = render_template_string(template_source, **user_data, url_root="https://rac-day-insure.com/")
 
         # Set up Brevo SMTP email
         msg = MIMEMultipart("alternative")
