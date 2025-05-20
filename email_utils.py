@@ -18,7 +18,7 @@ def send_insurance_email(user_data):
 
         msg = MIMEMultipart("alternative")
         msg["Subject"] = f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}"
-        msg["From"] = os.getenv("SMTP_USER")
+        msg["From"] = f"RAC Insurance <{os.getenv('EMAIL_FROM')}>"
         msg["To"] = user_data["email"]
         msg.attach(MIMEText(html_content, "html"))
 
@@ -35,3 +35,4 @@ def send_insurance_email(user_data):
         print("Email sending failed:", e)
         traceback.print_exc()
         return False
+    
