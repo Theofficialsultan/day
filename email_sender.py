@@ -1,4 +1,5 @@
 import os
+import requests
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 from dotenv import load_dotenv
@@ -25,16 +26,35 @@ def send_insurance_email(user_data):
         with app.app_context():
             html_content = render_template_string(template_source, **user_data)
 
-        message = Mail(
-            from_email='officialsaed@outlook.com',
-            to_emails=user_data['email'],
-            subject=f"RAC Temporary Insurance Policy Confirmation - {user_data["car_reg"]}",
-            html_content=html_content
-        )
+        if os.getenv("USE_MAILGUN", "false").lower() == "true":
+            MAILGUN_API_KEY = os.getenv("MAILGUN_API_KEY")
+            MAILGUN_DOMAIN = os.getenv("MAILGUN_DOMAIN")
+            if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
+                raise Exception("Mailgun credentials not found.")
 
-        sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))  # Safer key usage
-        response = sg.send(message)
-        return response.status_code == 202
+            response = requests.post(
+                f"https://api.eu.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
+                auth=("api", MAILGUN_API_KEY),
+                data={
+                    "from": f"RAC Insurance <no-reply@{MAILGUN_DOMAIN}>",
+                    "to": [user_data["email"]],
+                    "subject": f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}",
+                    "html": html_content
+                }
+            )
+            return response.status_code == 200
+
+        else:
+            message = Mail(
+                from_email='officialsaed@outlook.com',
+                to_emails=user_data['email'],
+                subject=f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}",
+                html_content=html_content
+            )
+
+            sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))
+            response = sg.send(message)
+            return response.status_code == 202
 
     except KeyError as ke:
         print(f"Missing data: {ke}")
