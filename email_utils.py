@@ -16,7 +16,7 @@ def send_insurance_email(user_data):
         message = Mail(
             from_email="officialsaed@outlook.com",
             to_emails=user_data['email'],
-            subject=f"RAC Temporary Insurance Policy Confirmation - {user_data["car_reg"]}",
+            subject=f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}",
             html_content=html_content
         )
 
