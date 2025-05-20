@@ -175,7 +175,7 @@ def add_user():
         "price": data.get("price", "£84.19"),
         "contact_number": data.get("contact_number", ""),
         "occupation": data.get("occupation", ""),
-        "policy_link": url_for('login', _external=True) + f"?auto_login={urllib.parse.quote_plus(key)}",
+        "policy_link": url_for('login', _external=True),
         "email_sent": False
     }
 
