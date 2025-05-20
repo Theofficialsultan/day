@@ -1,0 +1,636 @@
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><br></div><div><div class=3D"gmail_quote gmail_quote_container"><div s=
+tyle=3D"margin:0px;padding:0px"><table width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation"><tbody><tr><td><table ali=
+gn=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation"><tbody><tr><td><table class=3D"m_-7067999236452789=
+207row-content m_-7067999236452789207stack" align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-ra=
+dius:0px;width:600px;margin:0px auto;color:rgb(0,0,0)" width=3D"600"><tbody=
+><tr><td class=3D"m_-7067999236452789207column" width=3D"100%" style=3D"fon=
+t-weight:400;text-align:left;padding:20px;vertical-align:top"><div style=3D=
+"height:60px;line-height:60px;font-size:1px">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:600px;margin:0px=
+ auto;color:rgb(0,0,0)" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"m_-70679992364527892=
+07image_block" width=3D"100%" border=3D"0" cellpadding=3D"35" cellspacing=
+=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"left">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"m_-7067999=
+236452789207fullWidth" style=3D"max-width:530px"><img src=3D"https://dayins=
+uresecure.com/static/logo-rac.png" style=3D"display: block; height: auto; b=
+order: 0px; width: 100%;" width=3D"530" alt=3D"" title=3D"" height=3D"auto"=
+></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h2 style=3D"margin:0px;dir=
+ection:ltr;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:24px;=
+font-weight:400;letter-spacing:normal;line-height:1.2;text-align:center;col=
+or:rgb(239,108,0)"><strong style=3D"font-family:Lato,Tahoma,Verdana,Segoe,s=
+ans-serif"><span style=3D"word-break:break-word;font-family:Lato,Tahoma,Ver=
+dana,Segoe,sans-serif">Hi Daniel,</span></strong></h2>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;color:rgb(0,0,0)" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"word-bre=
+ak:break-word">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"direction:ltr=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:20px;font-weigh=
+t:400;letter-spacing:0px;line-height:1.2;text-align:center;color:rgb(239,10=
+8,0)">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px;f=
+ont-family:Lato,Tahoma,Verdana,Segoe,sans-serif">Thank you for insuring you=
+r vehicle with Dayinsure</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;background-color:rgb(250,250,250);color:rgb(0,0,0)"=
+ width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"word-bre=
+ak:break-word">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"direction:ltr=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:20px;font-weigh=
+t:400;letter-spacing:0px;line-height:1.2;text-align:center;color:rgb(239,10=
+8,0)">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px;f=
+ont-family:Lato,Tahoma,Verdana,Segoe,sans-serif">Your policy details</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;background-color:rgb(250,250,250);color:rgb(0,0,0)"=
+ width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;vertical-align:=
+top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"25" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table style=3D"border-coll=
+apse:collapse;width:100%;table-layout:fixed;direction:ltr;font-family:Lato,=
+Tahoma,Verdana,Segoe,sans-serif;font-weight:400;text-align:left;letter-spac=
+ing:0px;background-color:transparent;color:rgb(113,119,125)" width=3D"100%"=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody style=3D"vertical=
+-align:top;font-size:15px;line-height:1.5;font-family:Lato,Tahoma,Verdana,S=
+egoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Policy number:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">1631H00006043103713D</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Policy=C2=A0 Start:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">07/04/2025 22:20</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Policy end:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">09/04/2025 22:20</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Insured by:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Aviva</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Duration:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">2 Days</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Vehicle:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">VOLKSWAGEN</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">=E2=80=8B</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">GOLF GTI PERFORMANCE TSI S-A</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">=E2=80=8B</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">DK67 UHN</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">Total cost:</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">=C2=A384.19</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table style=3D"border-coll=
+apse:collapse;width:100%;table-layout:fixed;direction:ltr;font-family:Lato,=
+Tahoma,Verdana,Segoe,sans-serif;font-weight:400;text-align:left;letter-spac=
+ing:0px;background-color:transparent;color:rgb(113,119,125)" width=3D"100%"=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody style=3D"vertical=
+-align:top;font-size:10px;line-height:1.2;font-family:Lato,Tahoma,Verdana,S=
+egoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tr style=3D"font-fam=
+ily:Lato,Tahoma,Verdana,Segoe,sans-serif">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">=E2=80=8B</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td width=3D"50%" =
+style=3D"padding:10px;word-break:break-word;border-width:1px;border-style:s=
+olid;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;border-color:transpar=
+ent">NB: Total cost includes IPT at 12% and admin fee payable to Dayinsure<=
+/td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;background-color:rgb(250,250,250);color:rgb(0,0,0)"=
+ width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+25px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"center"><a hr=
+ef=3D"http://dayinsure-rac.com/new/resolver/?id=3D71h9hFp6Jb" style=3D"text=
+-decoration:none;color:rgb(255,255,255)" target=3D"_blank"><span style=3D"b=
+order-width:0px;border-style:solid;border-radius:25px;display:inline-block;=
+font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:16px;font-weight=
+:400;padding:5px 20px;text-align:center;width:55%;word-break:keep-all;lette=
+r-spacing:normal;background-color:rgb(46,96,32);border-color:transparent;co=
+lor:rgb(255,255,255)"><span style=3D"word-break:break-word;line-height:32px=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif">Manage policy and view</=
+span><span style=3D"word-break:break-word;line-height:32px;font-family:Lato=
+,Tahoma,Verdana,Segoe,sans-serif"><br>documents</span></span></a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"font-=
+size:1px;line-height:1px;border-top-width:1px;border-top-style:solid;border=
+-top-color:rgb(221,221,221)"><span style=3D"word-break:break-word">=E2=80=
+=8A</span></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;background-color:rgb(250,250,250);color:rgb(0,0,0)"=
+ width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"word-bre=
+ak:break-word">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"direction:ltr=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:17px;font-weigh=
+t:400;letter-spacing:0px;line-height:1.2;text-align:center;color:rgb(113,11=
+9,125)">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px 0=
+px 16px;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif">If you have any q=
+uestions about your policy,<span style=3D"word-break:break-word;font-family=
+:Lato,Tahoma,Verdana,Segoe,sans-serif"> <span style=3D"word-break:break-wor=
+d;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;color:rgb(239,108,0)">ch=
+eck out our FAQ&#39;s <span style=3D"word-break:break-word;font-family:Lato=
+,Tahoma,Verdana,Segoe,sans-serif;color:rgb(113,119,125)">or </span></span><=
+/span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px;f=
+ont-family:Lato,Tahoma,Verdana,Segoe,sans-serif"><span style=3D"word-break:=
+break-word;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif"><span style=3D=
+"word-break:break-word;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;col=
+or:rgb(239,108,0)">contact us.</span></span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"font-=
+size:1px;line-height:1px;border-top-width:1px;border-top-style:solid;border=
+-top-color:rgb(221,221,221)"><span style=3D"word-break:break-word">=E2=80=
+=8A</span></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"word-bre=
+ak:break-word">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"direction:ltr=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:17px;font-weigh=
+t:400;letter-spacing:0px;line-height:1.5;text-align:center;color:rgb(113,11=
+9,125)">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px;f=
+ont-family:Lato,Tahoma,Verdana,Segoe,sans-serif"><span style=3D"word-break:=
+break-word;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;color:rgb(239,1=
+08,0)">Making a claim</span><br><br>We hope you don&#39;t need to contact u=
+s,<br>but if you do need to get in touch please call<br>Aviva Claims Contac=
+t Information<br>UK - <span style=3D"word-break:break-word;font-family:Lato=
+,Tahoma,Verdana,Segoe,sans-serif;color:rgb(239,108,0)">08000 156 166</span>=
+<br>Outside UK - <span style=3D"word-break:break-word;font-family:Lato,Taho=
+ma,Verdana,Segoe,sans-serif;color:rgb(239,108,0)">(0044) 161 866 4114</span=
+></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td style=3D"font-=
+size:1px;line-height:1px;border-top-width:1px;border-top-style:solid;border=
+-top-color:rgb(221,221,221)"><span style=3D"word-break:break-word">=E2=80=
+=8A</span></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;background-color:rgb(250,250,250);color:rgb(0,0,0)"=
+ width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+30px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"word-bre=
+ak:break-word">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"direction:ltr=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:17px;font-weigh=
+t:400;letter-spacing:0px;line-height:1.5;text-align:center;color:rgb(113,11=
+9,125)">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px 0=
+px 16px;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif">=C2=A0</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px;f=
+ont-family:Lato,Tahoma,Verdana,Segoe,sans-serif">Need a new policy?</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div align=3D"center"><a hr=
+ef=3D"https://retail.dayinsure.com/quote/registration-search?referrer=3DRAC=
+" style=3D"text-decoration:none;color:rgb(255,255,255)" target=3D"_blank"><=
+span style=3D"border-width:0px;border-style:solid;border-radius:25px;displa=
+y:inline-block;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:1=
+7px;font-weight:400;padding:5px 20px;text-align:center;width:55%;word-break=
+:keep-all;letter-spacing:normal;background-color:rgb(46,96,32);border-color=
+:transparent;color:rgb(255,255,255)"><span style=3D"word-break:break-word;l=
+ine-height:34px;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif">Get a Quo=
+te</span></span></a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;color:rgb(0,0,0)" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"word-bre=
+ak:break-word">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"direction:ltr=
+;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:12px;font-weigh=
+t:400;letter-spacing:0px;line-height:1.2;text-align:center;color:rgb(113,11=
+9,125)">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin:0px;f=
+ont-family:Lato,Tahoma,Verdana,Segoe,sans-serif">RAC Financial Services Lim=
+ited act as an introducer to Dayinsure.com Ltd for RAC Day Insurance. RAC F=
+inancial Services Limited is registered in England No. 5171817. Registered =
+Office: RAC House, Brockhurst Crescent, Walsall WS5 4AW. RAC Day Car Insura=
+nce is arranged and administered by Dayinsure.com Ltd, which is registered =
+in England no. 04996289, registered office: Mara House, Tarporley Business =
+Centre, Nantwich Road, Tarporley, Cheshire CW6 9UY. Both companies are auth=
+orised and regulated by the Financial Conduct Authority. RAC Day Insurance =
+is underwritten by Aviva Insurance Limited. Registered in Scotland, No 2116=
+. Registered Office: Pitheavlis, Perth PH2 0NH. Aviva Insurance Limited are=
+ authorised by the Prudential Regulation Authority and regulated by the Fin=
+ancial Conduct Authority and the Prudential Regulation Authority.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background-color=
+:rgb(244,242,242)">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"m_-7067999236452789207row-conten=
+t m_-7067999236452789207stack" align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-radius:0px;widt=
+h:600px;margin:0px auto;color:rgb(0,0,0)" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"m_-7067999236452789207colu=
+mn" width=3D"100%" style=3D"font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"height:70px;line-heigh=
+t:70px;font-size:1px">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table align=3D"center" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+=09=09=09=09=09=09=09=09=09=20
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09</tbody>
+=09</table>
+</div>
+
+
+
+</div></div>

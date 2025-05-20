@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1, h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
+        th, td { border: 1px solid #aaa; padding: 10px; text-align: left; }
+        form.inline { display: inline; }
+        .status { font-weight: bold; }
+        .status.sent { color: green; }
+        .status.not-sent { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+
+    <h2>All Users</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>DOB</th>
+                <th>Postcode</th>
+                <th>Email</th>
+                <th>Car Reg</th>
+                <th>Car Type</th>
+                <th>Home Address</th>
+                <th>Licence</th>
+                <th>Cover Start</th>
+                <th>Cover End</th>
+                <th>Email Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user_id, user in users.items() %}
+            {% if user %}
+            <tr>
+                <td>{{ user.name }}</td>
+                <td>{{ user.dob }}</td>
+                <td>{{ user.postcode }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.reg }}</td>
+                <td>{{ user.car }}</td>
+                <td>{{ user.home_address }}</td>
+                <td>{{ user.licence }}</td>
+                <td>{{ user.cover_start_date }} {{ user.cover_start_time }}</td>
+                <td>{{ user.cover_end_date }} {{ user.cover_end_time }}</td>
+                <td>
+                    {% if user.email_sent %}
+                        <span class="status sent">Sent</span>
+                    {% else %}
+                        <span class="status not-sent">Not Sent</span>
+                    {% endif %}
+                </td>
+                <td>
+                    <form action="{{ url_for('delete_user', user_id=user_id | urlencode) }}" method="post" class="inline">
+                        <button type="submit">Delete</button>
+                    </form>
+                    <form action="{{ url_for('issue_email', user_id=user_id) }}" method="post" class="inline">
+                        <button type="submit">Send Email</button>
+                    </form>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h2>Add New User</h2>
+    <form method="post" action="{{ url_for('add_user') }}">
+        <label>Surname: <input type="text" name="surname" required></label><br><br>
+        <label>DOB (DD-MM-YYYY): <input type="text" name="dob" required></label><br><br>
+        <label>Postcode: <input type="text" name="postcode" required></label><br><br>
+        <label>Name: <input type="text" name="name" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <label>Car Reg: <input type="text" name="reg" required></label><br><br>
+        <label>Car Type: <input type="text" name="car" required></label><br><br>
+        <label>Home Address: <input type="text" name="home_address" required></label><br><br>
+        <label>Licence: <input type="text" name="licence" required></label><br><br>
+        <label>Cover Start Date: <input type="text" name="cover_start_date" required></label><br><br>
+        <label>Cover Start Time: <input type="text" name="cover_start_time" required></label><br><br>
+        <label>Cover End Date: <input type="text" name="cover_end_date" required></label><br><br>
+        <label>Cover End Time: <input type="text" name="cover_end_time" required></label><br><br>
+        <button type="submit">Add User</button>
+    </form>
+</body>
+</html>

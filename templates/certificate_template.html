@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate of Motor Insurance</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 20mm;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+    }
+
+    .page {
+      page-break-after: always;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      position: relative;
+    }
+
+    .page:last-of-type {
+      page-break-after: auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-top: -20px;
+    }
+
+    .logo {
+      height: 40px;
+      margin-top: -40px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 13px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .certificate-box {
+      border: 1px solid black;
+      padding: 15px;
+      margin: 0 auto 10px auto;
+      width: 100%;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .watermark-container, .watermark-block {
+      position: absolute;
+      transform: rotate(-40deg);
+      font-size: 21px;
+      color: rgba(130, 150, 180, 0.4);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .watermark-container {
+      top: 30px;
+      left: 0;
+      width: 125%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .watermark-container div {
+  margin-bottom: 15px; /* or remove this entirely */
+  font-size: 13px;
+  line-height: 0.2; /* 1.5 to 2 is good for spacing like in your message */
+}
+
+.watermark-block{
+      top: 30px;
+      left: -420px;
+      width: 125%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .watermark-block div {
+  margin-bottom: 15px; /* or remove this entirely */
+  font-size: 13px;
+  line-height: 0.2; /* 1.5 to 2 is good for spacing like in your message */
+}
+.watermark-topright {
+      position: absolute;
+      top: -270px;
+      right: -260px;
+      transform: rotate(-40deg);
+      font-size: 13px;
+      color: rgba(130, 150, 180, 0.4);
+      z-index: 0;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .watermark-topright div {
+      margin-bottom: 16px;
+      line-height: 0.1;
+    }
+
+    .top-left, .top-right {
+      position: absolute;
+      font-weight: bold;
+    }
+
+    .top-left {
+      top: 20px;
+      left: 20px;
+    }
+
+    .top-right {
+      top: 20px;
+      right: 20px;
+      text-align: right;
+    }
+
+    .details-table {
+      width: 100%;
+      border-spacing: 0;
+    }
+
+    .details-table td {
+      padding: 4px;
+      vertical-align: top;
+      line-height: 1.6;
+    }
+
+    .limitations, .exclusions, .impounded, .hereby, .hereby2, .signature, .subnote {
+      margin-top: 15px;
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .signature img {
+      height: 40px;
+    }
+
+    .subnote {
+      font-size: 10px;
+      line-height: 1.4;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="header">
+    <img class="logo" src="{{ url_for('static', filename='rac_logo.png') }}">
+    <div class="title">CERTIFICATE OF MOTOR INSURANCE</div>
+  </div>
+
+  <div class="certificate-box">
+    <!-- Center background watermark -->
+    <div class="watermark-container">
+      {% for i in range(50) %}
+        <div>{{ watermark_text }}</div>
+      {% endfor %}
+    </div>
+
+    <div class="watermark-block">
+      {% for i in range(50) %}
+        <div>{{ watermark_text }}</div>
+      {% endfor %}
+    </div>
+   
+    <!-- NEW: Top-right watermark -->
+    <div class="watermark-topright">
+      {% for i in range(50) %}
+        <div>{{ watermark_text }}</div>
+      {% endfor %}
+    </div>
+
+    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+      <div><strong>Our Ref:</strong> {{ reference_number }}</div>
+      <div style="text-align: right;"><strong>CERTIFICATE NUMBER</strong><br>{{ policy_number }}</div>
+    </div>
+
+    <table class="details-table">
+      <tr><td><strong>1. DESCRIPTION OF VEHICLES</strong></td><td><strong>Registration Mark: {{ car_reg }}</strong></td></tr>
+      <tr><td><strong>2. NAME OF POLICYHOLDER</strong></td><td><strong>{{ name }}</strong></td></tr>
+      <tr><td><strong>3. EFFECTIVE DATE OF THE COMMENCEMENT OF INSURANCE</strong></td><td><strong>{{ policy_start }}</strong></td></tr>
+      <tr><td><strong>4. DATE OF EXPIRY OF INSURANCE</strong></td><td><strong>{{ policy_end }}</strong></td></tr>
+      <tr><td><strong>5. PERSONS OR CLASSES OF PERSONS ENTITLED TO DRIVE</strong></td></tr>
+      <tr><td colspan="2">{{ name }}</td></tr>
+    </table>
+
+    <div class="limitations">
+      <p><strong>6. LIMITATIONS AS TO USE SUBJECT TO THE EXCLUSIONS BELOW</strong></p>
+      <p>(a) Use for social, domestic or pleasure purposes.</p>
+      <p>(b) Travel to and from paid employment.</p>
+      <p>(c) Use by the Policyholder in connection with their occupation.</p>
+    </div>
+
+    <div class="exclusions">
+      <p><strong>EXCLUSIONS</strong></p>
+      <p>(a) Use for hiring of the vehicle, the carriage of passengers or goods for payment, the carriage of goods or property which does not belong to you as a courier or for takeaway or fast food delivery.</p>
+      <p>(b) Use for any competitions, trial, performance test, race or trial of speed, including off-road events.</p>
+      <p>(c) Use to secure the release of a motor vehicle seized by a government or public authority.</p>
+    </div>
+
+    <div class="impounded">
+      <p><strong>IMPOUNDED VEHICLES:</strong> This Short Term Insurance Certificate can be used for the purpose of recovering an impounded vehicle.</p>
+    </div>
+  </div>
+
+  <div class="hereby">
+    I hereby certify that the Policy to which this Certificate relates satisfies the requirements of the relevant Law applicable in Great Britain, Northern Ireland, the Isle of Man, Guernsey, Jersey, and Alderney.
+  </div>
+  <div class="signature" style="text-align: right;">
+    <p>Signed on behalf of<br>Aviva Insurance Limited (Authorised Insurers)</p>
+    <br>
+    <img src="{{ url_for('static', filename='signature.png') }}">
+    <br>
+    <p>Authorised Signatory<br>Colm Holmes<br>Global CEO General Insurance</p>
+  </div>
+<br>
+<br>
+  <div class="subnote">
+    NOTE: For full details of the insurance cover reference should be made to the policy.<br>
+    ADVICE TO THIRD PARTIES: Nothing contained in this Certificate affects your right as a Third Party to make a claim.<br><br>
+    Any query relating to this insurance or any alteration should be referred to the Agent through whom the Insurance is arranged or the Aviva Office – address obtainable from the policy.<br>
+    The number under the heading 'CERTIFICATE NUMBER' should be quoted in all correspondence.<br><br>
+    <p>TRANSFER OF INTEREST This Certificate is not transferable.</p><br>
+    <strong>THIS CERTIFICATE HAS BEEN PRODUCED ON A COMPUTER PRINTER AND IS NOT VALID IF ALTERED IN ANY WAY.</strong>
+    <br>
+    <br>
+    Aviva Insurance Limited. Registered in Scotland Number 2116.<br>
+    Registered Office: Pitheavlis, Perth PH2 0NH.<br>
+    Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.
+  </div>
+
+</div>
+</body>
+</html>
+<!-- Page 2 -->
+<!-- Page 2 -->
+<div class="page">
+  <div class="header">
+    <img class="logo" src="{{ url_for('static', filename='rac_logo.png') }}">
+    <div class="title">CERTIFICATE OF MOTOR INSURANCE</div>
+  </div>
+
+  <div class="page2-body-wrapper" style="display: flex; justify-content: space-between; align-items: start; margin-top: 40px;">
+    <div class="page2-body" style="flex: 1; font-size: 10;">
+      <p><strong>To whom it may concern</strong><br>
+        <br>
+      This insurance Certificate provides evidence that motor insurance operates in the United Kingdom for the dates shown and this cover extends to and include the compulsory insurance requirements of:<br> <br>
+      a. any member country of the European Union<br>
+      b. Andorra, Iceland, Liechtenstein, Norway, Serbia and Switzerland</p>
+
+      <p><strong>La présente attestation est faite pour servir et valoir ce que de droit</strong><br> <br>
+      Cette attestation d'assurance apporte la preuve que l'assurance automobile est valable au Royaume-Uni aux dates indiquées et que cette couverture est étendue pour inclure les conditions obligatoires d'assurance de:<br>
+      b. Andorre, I `Islande, le Liechtenstein , la Norvége , la Serbie et la Suisse</p>
+
+      <p><strong>An alle, die es angeht</strong><br> <br>
+      Dieses Versicherungszertifikat ist der Nachweis, dass die Kraftfahrzeugversicherung im Vereinigten Königreich an den gezeigten Daten gültig ist, und diese Deckung erfasst auch die Pflichtversicherungsvorschriften in:<br> <br>
+      a. Jedem anderen Mitgliedsstaat der Europäischen Union<br>
+      b. Andorra, Island, Liechtenstein, Norwegen, Serbien und der Schweiz</p>
+
+      <p><strong>A quien corresponda</strong><br> <br>
+      Este Certificado de Seguro provee evidencia que seguro de automóvil opera en el Reino Unido para las fechas que aparecen y esta cobertura se extiende para incluir los requerimientos de seguro obligatorios de:<br> <br>
+      a. Cualquier otro país miembro de la Unión Europea<br>
+      b. Andorra, Islandia, Liechtenstein, Noruega, Serbia y Suiza</p>
+
+      <p><strong>A chiunque possa interessare</strong><br> <br>
+      Questo Certificato di Assicurazione costituisce la prova dell'esistenza dell'assicurazione automobilistica nel Regno Unito per le date indicate e che la copertura é estesa in modo da includere i requisiti assicurativi obbligatori di:<br> <br>
+      a. Qualsiasi altro Paese facente parte dell'Unione Europea<br>
+      b. Andorra, Islanda, Liechtenstein, Norvegia, Serbia e Svizzera</p>
+    </div>
+
+    <div class="top-right" style="text-align: right; font-size: 10px; margin-left: 30px;margin-top: 53px;">
+      <strong>CERTIFICATE NUMBER</strong><br>{{ policy_number }}
+    </div>
+  </div>
+</div>
+
+<div class="page" style="padding: 40px 60px 60px 60px; font-family: Arial, sans-serif; font-size: 11px; color: #000;">
+  <!-- Header: Logo left, address right -->
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+    <img src="{{ url_for('static', filename='rac_logo.png') }}" style="height: 45px; margin-top: 0;">
+    <div style="text-align: right; width: 55%;">
+      <p style="margin: 0;">
+        Aviva Insurance Limited.<br>
+        Registered in Scotland Number 2116. Registered Office Pitheavlis, Perth PH2 0NH.<br>
+        Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority
+      </p>
+    </div>
+  </div>
+
+  <hr style="margin: 15px 0 25px 0; border: none; border-top: 1px solid #000;">
+
+  <!-- Main body: Reference left, Schedule right -->
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 25px;">
+    <div style="width: 60%;">
+      <p style="margin-bottom: 10px;"><strong>Our Ref:</strong> {{ reference_number }}</p>
+      <p style="margin-bottom: 10px;"><strong>Your policy starts on</strong><br>{{ policy_start }}</p>
+      <p style="margin-bottom: 10px;"><strong>Your policy expires on</strong><br>{{ policy_end }}</p>
+      <p style="margin-bottom: 0;">
+        dayinsure.com Limited<br>
+        Mara House<br>
+        Tarporley Business Centre<br>
+        Nantwich Road<br>
+        Tarporley<br>
+        CW6 9UY
+      </p>
+      <p style="margin-top: 8px;">0333 005 0944</p>
+    </div>
+
+    <div style="text-align: right; width: 35%;">
+      <p style="font-weight: bold; font-size: 13px; margin-bottom: 6px;">Your Schedule</p>
+      <p>Produced On: {{ policy_start }}</p>
+    </div>
+  </div>
+
+  <hr style="margin: 20px 0; border: none; border-top: 1px solid #000;">
+
+  <!-- Policy details -->
+  <table style="width: 100%; margin-bottom: 20px;">
+    <tr>
+      <td style="font-weight: bold; padding-bottom: 5px;">Type of policy</td>
+      <td style="font-weight: bold; padding-bottom: 5px;">Policy Number</td>
+    </tr>
+    <tr>
+      <td>Dayinsure Short Term Insurance from Aviva</td>
+      <td>1631H00006043103713D</td>
+    </tr>
+  </table>
+
+  <p style="font-weight: bold; margin-bottom: 20px;">This schedule forms part of your policy</p>
+
+  <table style="width: 100%; margin-bottom: 25px;">
+    <tr>
+      <td style="width: 30%; font-weight: bold;">The Policy Holder</td>
+      <td>{{ name }}</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Address</td>
+      <td>{{ home_address }}</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Total Paid</td>
+      <td>
+        £123.31<br>
+        The total paid includes:<br>
+        Insurance Premium Tax (IPT) of £1.29<br>
+        An admin fee payable to Dayinsure of £4.80
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Your Vehicle</td>
+      <td>
+        <strong>Make:</strong> {{ car_make }}<br>
+        <strong>Model:</strong> {{ car_model }}<br>
+        <strong>Registration Mark:</strong> {{ car_reg }}<br>
+        <strong>Cc:</strong> N/A
+      </td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Excess</td>
+      <td>£2550.00</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">Persons entitled to drive</td>
+      <td>{{ name }} <strong>Date Of Birth:</strong> 08/11/2002 <strong>Licence:</strong> {{ licence }}</td>
+    </tr>
+  </table>
+
+  <p style="margin-bottom: 18px;"><strong>Limitations as to use</strong><br>
+  Use for social, domestic and pleasure purposes and business use by the Policyholder excluding the carriage of passengers or goods for hire or reward.</p>
+
+  <p style="margin-bottom: 18px;"><strong>RAC Motor Legal Expenses Cover</strong> included. Refer to the separate RAC Motor Legal Expenses Policy Terms and Conditions for further information.</p>
+
+  <p style="margin-bottom: 20px;">
+    If the information in this Schedule is incorrect or does not meet your requirements, please tell us at once.<br>
+    You are reminded of the need to notify any facts that we would take into account in our assessment or acceptance of this insurance. Failure to disclose all relevant facts may invalidate your policy, or result in your policy not operating fully. You should keep a written record of any information you give to us.
+  </p>
+
+  <p style="font-weight: bold;">This policy is not renewable.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+.site {
+  background: linear-gradient(147deg, white 0%, white 100%); }
+
+.site h1 {
+  color: #222222; }
+
+.page-wrapper {
+  background: rgba(34, 34, 34, 0.1); }
+
+#web-form .has-error .help-block, #web-form .has-error .control-label, #web-form .has-error .form-control, #web-form .has-error .combine-input {
+  border-color: red !important; }
+
+#web-form .has-error .help-block {
+  color: red !important; }
+
+#web-form .validation-wrapper {
+  padding: 5px;
+  border: 2px solid red !important;
+  border-radius: 8px; }
+
+.headerLogo {
+  height: 24px !important;
+  width: 75px !important;
+  background-size: 75px 24px !important;
+  background-image: url("");
+  background-image: url("rac-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: transparent !important;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  margin-top: 4px; }
+
+#web-form .has-success .help-block, #web-form .has-success .control-label, #web-form .has-success .form-control {
+  color: #222222 !important;
+  border-color: rgba(34, 34, 34, 0.4) !important;
+  background-color: transparent !important; }
+
+#web-form a {
+  color: #f95108 !important; }
+
+#web-form a:visited {
+  color: #f95108 !important; }
+
+#web-form a:hover {
+  color: #f95108 !important; }
+
+.btn-extra {
+  background-color: #f95108;
+  border: 2px solid white;
+  color: white; }
+
+.danger {
+  border-color: white;
+  color: white; }
+
+#web-form .form-control-height {
+  height: 64px !important;
+  border: 2px solid rgba(34, 34, 34, 0.4);
+  background-color: transparent !important;
+  color: #222222;
+  border-radius: 8px;
+  font-family: 'Raleway'; }
+
+#web-form .inline-control {
+  height: 64px !important;
+  background-color: transparent !important;
+  color: #222222;
+  width: 32.5%;
+  text-align: center;
+  border: none;
+  font-family: 'Raleway'; }
+
+.icon-quote {
+  background: url("icon_quote_white.svg") no-repeat scroll 3px 1px;
+  padding-left: 25px;
+  text-align: left !important;
+  background-size: 15px 12px; }
+
+.border-right {
+  background: url("divider_black.svg") no-repeat scroll 100% 14px;
+  background-size: 2px 32px; }
+
+.combine-input {
+  height: 64px !important;
+  border: 2px solid rgba(34, 34, 34, 0.4);
+  background-color: transparent !important;
+  color: rgba(34, 34, 34, 0.6);
+  border-radius: 8px; }
+
+#web-form .btn-primary[disabled] {
+  box-shadow: none;
+  background-color: #f95108;
+  opacity: 0.4; }
+
+#web-form .btn-primary:hover {
+  background-color: #f96222 !important; }
+
+.web-heading-text {
+  font-family: Raleway !important;
+  color: #222222;
+  padding-top: 30px !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center; }
+
+#web-form .webForgottonDetails {
+  color: #222222; }
+
+#web-form .form-group label {
+  font-family: Raleway;
+  color: #222222;
+  line-height: 19px; }
+
+#web-form span {
+  color: #222222; }
+
+.error-block {
+  background: rgba(34, 34, 34, 0.05); }
+
+.error-block small {
+  color: red; }
+
+.error-block .warning {
+  width: 34px;
+  height: 30px;
+  background-image: url(""); }
+
+#web-form input:focus, .input-focus {
+  border-color: #222222 !important;
+  box-shadow: none !important; }
+
+#web-form input.set-border-color {
+  border-color: #222222 !important; }
+
+#web-form .btn-primary {
+  color: white;
+  background-color: #f95108;
+  border-radius: 8px;
+  font-family: Raleway !important;
+  font-size: 16px;
+  line-height: 19px;
+  border-color: #f95108;
+  height: 64px;
+  font-weight: 600; }
+
+#web-form .btn-info {
+  color: #1e9771 !important;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #1e9771;
+  border-radius: 8px;
+  font-family: Raleway !important;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600 !important;
+  height: 64px; }
+
+#web-form .btn-info:hover {
+  color: #1e9771 !important;
+  background: rgba(34, 34, 34, 0.05);
+  border: 2px solid #1e9771;
+  border-radius: 8px;
+  font-family: Raleway !important;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600 !important;
+  height: 64px; }
+
+.input-gray-out {
+  color: #222222 !important;
+  border: 2px solid rgba(34, 34, 34, 0.6); }
+
+.info-text {
+  color: #222222 !important; }
+
+.web-page-header .btn-info, .web-page-header .btn-info:hover, .web-page-header .btn-info:visited {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  font-family: LatoRegular !important;
+  font-size: 16px;
+  line-height: 19px;
+  border-color: white; }
+
+#web-form .email-icon {
+  background: url("") no-repeat scroll 0px 1px;
+  padding-left: 25px; }
+
+#web-form .user-icon {
+  background: url("icon_user_black.svg") no-repeat scroll 0px 2px;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px; }
+
+#web-form .date-icon {
+  background: url("icon_date_black.svg") no-repeat scroll 0px 2px;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px; }
+
+#web-form .postcode-icon {
+  background: url("icon_postcode_black.svg") no-repeat scroll 2px 2px;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-size: 15px 15px; }
+
+#web-form .password-icon {
+  background: url("") no-repeat scroll 0px 0px;
+  padding-left: 25px; }
+
+#web-form input::placeholder {
+  color: rgba(34, 34, 34, 0.6);
+  font-size: 16px; }
+
+footer {
+  background-color: #222222; }
+
+header.web-page-header {
+  min-height: 75px;
+  background: #f95108;
+  padding-top: 25px; }
+
+footer.web-page-footer {
+  background: #222222; }
+
+.web-page-footer a, .web-page-footer a:hover, .web-page-footer a:focus {
+  color: white; }
+
+.web-page-footer .links-holder {
+  color: rgba(34, 34, 34, 0.4); }
+
+.web-page-footer .trademark-text {
+  color: white; }
+
+.di-eye {
+  background-image: url("");
+  background-size: 15px 12px;
+  width: 15px;
+  height: 12px; }
+
+.di-eye-slash {
+  background-image: url("");
+  background-size: 15px 13px;
+  width: 16px;
+  height: 12px; }
+
+.bg-header-background {
+  opacity: 1;
+  background-color: #f95108; }
+
+.text-main-content-1 {
+  opacity: 1;
+  color: #222222; }
+
+.border-error-border {
+  border-color: red; }
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .headerLogo {
+    margin-left: 8px !important; } }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .headerLogo {
+    margin-left: 4px !important; } }
+
+@media (min-width: 1200px) {
+  .headerLogo {
+    margin-left: 5px !important; } }
