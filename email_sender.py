@@ -1,7 +1,7 @@
 import os
-import requests
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 from flask import Flask, render_template_string
 
@@ -26,42 +26,20 @@ def send_insurance_email(user_data):
         with app.app_context():
             html_content = render_template_string(template_source, **user_data)
 
-        if os.getenv("USE_MAILGUN", "false").lower() == "true":
-            MAILGUN_API_KEY = os.getenv("MAILGUN_API_KEY")
-            MAILGUN_DOMAIN = os.getenv("MAILGUN_DOMAIN")
-            if not MAILGUN_API_KEY or not MAILGUN_DOMAIN:
-                raise Exception("Mailgun credentials not found.")
+        # Set up Brevo SMTP email
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}"
+        msg["From"] = os.getenv("SMTP_USER")
+        msg["To"] = user_data["email"]
+        msg.attach(MIMEText(html_content, "html"))
 
-            # DEBUG: Print Mailgun details before sending
-            print("Preparing to send email via Mailgun...")
-            print("Using API key:", MAILGUN_API_KEY[:10] + "..." if MAILGUN_API_KEY else "Missing")
-            print("Domain:", MAILGUN_DOMAIN or "Missing")
-            print("Recipient email:", user_data.get("email", "Missing"))
-            print("Endpoint:", f"https://api.eu.mailgun.net/v3/{MAILGUN_DOMAIN}/messages" if MAILGUN_DOMAIN else "Missing domain")
+        server = smtplib.SMTP(os.getenv("SMTP_HOST"), int(os.getenv("SMTP_PORT")))
+        server.starttls()
+        server.login(os.getenv("SMTP_USER"), os.getenv("SMTP_PASS"))
+        server.sendmail(msg["From"], msg["To"], msg.as_string())
+        server.quit()
 
-            response = requests.post(
-                f"https://api.eu.mailgun.net/v3/{MAILGUN_DOMAIN}/messages",
-                auth=("api", MAILGUN_API_KEY),
-                data={
-                    "from": f"RAC Insurance <no-reply@{MAILGUN_DOMAIN}>",
-                    "to": [user_data["email"]],
-                    "subject": f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}",
-                    "html": html_content
-                }
-            )
-            return response.status_code == 200
-
-        else:
-            message = Mail(
-                from_email='officialsaed@outlook.com',
-                to_emails=user_data['email'],
-                subject=f"RAC Temporary Insurance Policy Confirmation - {user_data['car_reg']}",
-                html_content=html_content
-            )
-
-            sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))
-            response = sg.send(message)
-            return response.status_code == 202
+        return True
 
     except KeyError as ke:
         print(f"Missing data: {ke}")
