@@ -28,6 +28,20 @@ def home():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    users = load_users()
+
+    # NEW: support auto-login via email link
+    auto_key = request.args.get('auto_login')
+    if auto_key:
+        key = urllib.parse.unquote(auto_key)
+        print(f"[AUTO-LOGIN] Key from URL: {key}")
+        if key in users:
+            user = users[key]
+            user['certificate_url'] = url_for('view_certificate', user_id=key)
+            return render_template('index.html', **user)
+        else:
+            return "No user found", 404
+
     if request.method == 'POST':
         surname = request.form.get('surname', '').capitalize()
         dob = f"{request.form.get('dob_day', '').zfill(2)}-{request.form.get('dob_month', '').zfill(2)}-{request.form.get('dob_year', '')}"
@@ -36,17 +50,15 @@ def login():
 
         print(f"[LOGIN] Generated key: {key}")
 
-        users = load_users()
         if key in users:
             user = users[key]
-
-            # Set the certificate link to render the HTML template, not a static PDF
             user['certificate_url'] = url_for('view_certificate', user_id=key)
-
             return render_template('index.html', **user)
         else:
             return "No user found", 404
     return render_template('login.html')
+
+# Remaining routes are unchanged...
 
 
 # NEW: Route to render certificate_template.html directly using user data
@@ -163,7 +175,7 @@ def add_user():
         "price": data.get("price", "£84.19"),
         "contact_number": data.get("contact_number", ""),
         "occupation": data.get("occupation", ""),
-        "policy_link": f"static/certificates/{cert_filename}",
+        "policy_link": url_for('login', _external=True),
         "email_sent": False
     }
 
