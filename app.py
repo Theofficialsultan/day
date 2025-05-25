@@ -122,11 +122,25 @@ def add_user():
 
     policy_number = f"1631H0000{new_cert_number:08d}D"
     reference_number = f"{new_ref_number:08d}"
-    duration_days = int(data.get('duration', 2))
-    now = datetime.now()
-    end = now + timedelta(days=duration_days)
 
-    cert_filename = f"{name_cap.replace(' ', '_')}_{reg_caps}.pdf"
+    # Use manually entered start and end
+    start_date_str = data["cover_start_date"]
+    start_time_str = data["cover_start_time"]
+    end_date_str = data["cover_end_date"]
+    end_time_str = data["cover_end_time"]
+
+    try:
+        start = datetime.strptime(f"{start_date_str} {start_time_str}", "%d/%m/%Y %H:%M")
+        end = datetime.strptime(f"{end_date_str} {end_time_str}", "%d/%m/%Y %H:%M")
+    except ValueError:
+        try:
+            start = datetime.strptime(f"{start_date_str} {start_time_str}", "%d-%m-%Y %H:%M")
+            end = datetime.strptime(f"{end_date_str} {end_time_str}", "%d-%m-%Y %H:%M")
+        except:
+            return "Invalid start or end format", 400
+
+    duration_days = (end - start).days
+
     user_info = {
         "surname": surname_cap,
         "dob": dob_formatted,
@@ -141,12 +155,12 @@ def add_user():
         "home_address": data["home_address"],
         "address": data["home_address"],
         "licence": data["licence"],
-        "cover_start_date": now.strftime("%d %B %Y"),
-        "cover_start_time": now.strftime("%H:%M"),
+        "cover_start_date": start.strftime("%d %B %Y"),
+        "cover_start_time": start.strftime("%H:%M"),
         "cover_end_date": end.strftime("%d %B %Y"),
         "cover_end_time": end.strftime("%H:%M"),
         "duration": f"{duration_days} Days",
-        "policy_start": f"{now.strftime('%d %B %Y')} {now.strftime('%H:%M')}",
+        "policy_start": f"{start.strftime('%d %B %Y')} {start.strftime('%H:%M')}",
         "policy_end": f"{end.strftime('%d %B %Y')} {end.strftime('%H:%M')}",
         "policy_number": policy_number,
         "certificate_number": policy_number,
@@ -162,7 +176,6 @@ def add_user():
     users[key] = user_info
     save_users(users)
 
-    # Deferred generation using background thread
     threading.Thread(target=generate_certificate, args=(user_info,)).start()
 
     return redirect(url_for('admin'))
@@ -175,7 +188,6 @@ def delete_user(user_id):
         del users[user_id]
         save_users(users)
     return redirect(url_for('admin'))
-
 @app.route('/admin/email/<user_id>', methods=['POST'])
 def issue_email(user_id):
     users = load_users()
